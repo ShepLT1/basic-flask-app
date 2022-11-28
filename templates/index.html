@@ -7,9 +7,11 @@
       type="text/css"
       href="{{ url_for('static', filename='style.css') }}"
     >
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   </head>
   <body>
-    It's a page.
+    This is {{ name }}'s page.
+    His favorite number is {{ num }}.
     <script src="static/script.js"></script>
   </body>
 </html>
