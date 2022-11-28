@@ -1,2 +1,2 @@
-# basic-flask-server
-Standard Flask-based python server
+# basic-flask-app
+Standard Flask-based python app
